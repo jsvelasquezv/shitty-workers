@@ -11,3 +11,7 @@ crons = ["30 12 * * *"]
 [vars]
 SHITTY_API_URL = 'https://shitty-api.fly.dev'
 BOTNORREA_WEBHOOK = 'https://59lbo0f12c.execute-api.us-east-2.amazonaws.com/prod/publicWebhook'
+SENTRY_DSN = "https://371452aee255bb54d46c2ad05e2ec94b@o4505665165197312.ingest.sentry.io/4505665202225152"
+STAGE = 'production'
+SENTRY_ORG = 'crappy-corp'
+SENTRY_PROJECT = 'shitty-workers'
