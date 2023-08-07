@@ -1,0 +1,19 @@
+{
+  "name": "shitty-workers",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prettier-check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.1.0",
+    "pnpm": ">=8.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.1"
+  }
+}
