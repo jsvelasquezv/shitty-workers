@@ -42,6 +42,7 @@ export default {
 				body: JSON.stringify({ message: birtdayMessage }),
 			});
 		} catch (error) {
+			console.error(error);
 			sentry.captureException(error);
 		}
 	},
