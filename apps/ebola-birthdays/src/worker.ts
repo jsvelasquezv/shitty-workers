@@ -48,6 +48,7 @@ export default {
 		} catch (error) {
 			console.error(error);
 			sentry.captureException(error);
+			throw error;
 		}
 	},
 
@@ -58,6 +59,7 @@ export default {
 		} catch (error) {
 			console.error(error);
 			sentry.captureException(error);
+			throw error;
 		}
 		return new Response(JSON.stringify({ message: 'Happy birthday' }), {
 			headers: {
