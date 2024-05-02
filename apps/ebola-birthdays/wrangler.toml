@@ -1,6 +1,7 @@
 name = "ebola-birthdays"
 main = "src/worker.ts"
 compatibility_date = "2023-05-15"
+account_id="64a8b82577f82b4e9717a55a2c6900d0"
 
 # Cron Triggers
 # Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
