@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "prettier-check": "prettier --check .",
-    "get_changes" : "./scripts/get_changes_from_commit.mjs"
+    "get_changes" : "zx --quiet scripts/get_changes_from_commit.mjs"
   },
   "keywords": [],
   "author": "",
