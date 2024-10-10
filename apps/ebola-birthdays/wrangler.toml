@@ -1,7 +1,7 @@
 name = "ebola-birthdays"
 main = "src/worker.ts"
 compatibility_date = "2023-05-15"
-account_id="64a8b82577f82b4e9717a55a2c6900d0"
+account_id = "64a8b82577f82b4e9717a55a2c6900d0"
 
 # Cron Triggers
 # Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
@@ -16,3 +16,7 @@ SENTRY_DSN = "https://371452aee255bb54d46c2ad05e2ec94b@o4505665165197312.ingest.
 STAGE = 'production'
 SENTRY_ORG = 'crappy-corp'
 SENTRY_PROJECT = 'shitty-workers'
+# wrangler.toml (wrangler v3.78.6^)
+
+[observability]
+enabled = true
